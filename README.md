@@ -11,9 +11,9 @@ A hexagonal architecture begins with the *application* AKA the "thingy you are b
 
 The application has a *core* which is where its business logic should be entirely contained. Any interaction between the core and external things should be described by *ports*.
 
-The *core* should not directly depend on any adapter code. This way, one adapter implementation can be swapped for another. The application's business logic is not tied to any particular adapter technology.
-
 Adapters bridge the gap between the core and external things. Adapters implement interactions described by ports with the core and external things, like databases, http interfaces, caches, GUI's, etc...
+
+The *core* should not directly depend on any adapter code. This way, one adapter implementation can be swapped for another. The application's business logic is not tied to any particular adapter technology.
 
 Takeaway: Adapters can depend on core code, but core code should not have any dependencies on adapter code.
 
