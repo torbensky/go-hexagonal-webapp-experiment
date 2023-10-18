@@ -58,4 +58,10 @@ and some more `adapter/<sub-package>` conventions I've seen:
 
 I think the general idea is to use a top level directory to name a type of adapter and then a nested directory to contain any implementation(s) of that adapter, typically naming it after the external thing the adapter uses.
 
+These are all just naming conventions to organize things so they're easy to find. Just ensure the naming and organization scheme follows idiomatic Go and makes sense for your way of organizing things.
+
+# My Example App
+
+TBD...
 These are all just naming conventions to organize things so they're easy to find.
+
